@@ -1,0 +1,13 @@
+C:/Users/jegaxiola/OneDrive - Pinnacle Software engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Npu/ll_aton_NN_interface.h:484:32:LL_Buffer_addr_base	2
+C:/Users/jegaxiola/OneDrive - Pinnacle Software engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Npu/ll_aton_NN_interface.h:494:32:LL_Buffer_addr_start	1
+C:/Users/jegaxiola/OneDrive - Pinnacle Software engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Npu/ll_aton_rt_user_api.h:355:46:LL_ATON_Output_Buffers_Info	3
+C:/Users/jegaxiola/OneDrive - Pinnacle Software engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Npu/ll_aton_rt_user_api.h:376:46:LL_ATON_Input_Buffers_Info	3
+../AI/App/app_x-cube-ai.c:86:5:aiInit	1
+../AI/App/app_x-cube-ai.c:99:5:aiDeinit	1
+../AI/App/app_x-cube-ai.c:109:5:aiRun	3
+../AI/App/app_x-cube-ai.c:125:5:acquire_and_process_data	1
+../AI/App/app_x-cube-ai.c:137:5:post_process	1
+../AI/App/app_x-cube-ai.c:154:6:main_loop	1
+../AI/App/app_x-cube-ai.c:172:6:STM32CubeAI_Studio_AI_Init	1
+../AI/App/app_x-cube-ai.c:180:6:STM32CubeAI_Studio_AI_Process	1
+../AI/App/app_x-cube-ai.c:185:6:STM32CubeAI_Studio_AI_Deinit	1
