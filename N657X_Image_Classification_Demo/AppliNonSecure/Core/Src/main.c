@@ -26,7 +26,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <string.h>
+#include <stdint.h>
+#include <stdarg.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -55,6 +57,9 @@ stai_buffer *ai_input;          // Buffers para entrada
 stai_buffer *ai_output;         // Buffers para salida
 
 __attribute__((aligned(32))) uint8_t activations[245760];
+
+UART_HandleTypeDef huart1;
+
 /* USER CODE END PV */
 
 /* USER CODE END PV */
@@ -62,6 +67,8 @@ __attribute__((aligned(32))) uint8_t activations[245760];
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
 
+static void printmsg(char *format,...);
+static void USART1_Init(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -84,7 +91,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  USART1_Init();
 
 
   /* USER CODE END Init */
@@ -113,7 +120,7 @@ int main(void)
   stai_ret = stai_network_init(&network);
 
   if (stai_ret != STAI_SUCCESS) {
-      printf("Error Init: %d\n", (int)stai_ret);
+      printmsg("Error Init: %d\n", (int)stai_ret);
       Error_Handler();
   }
 
@@ -131,14 +138,7 @@ int main(void)
   ai_input  = (stai_buffer*)input_ptrs[0];
   ai_output = (stai_buffer*)output_ptrs[0];
 
-  printf("Red N6 inicializada con exito!\r\n");
-  printf("Red N6 inicializada con exito2!\r\n");
-  printf("Red N6 inicializada con exito2!\r\n");
-  printf("Red N6 inicializada con exito2!\r\n");
 
-  printf("Red N6 inicializada con exito2!\r\n");v
-  printf("Red N6 inicializada con exito2!\r\n");
-  printf("Red N6 brooooooooooooooooooooo!\r\n");
 
   /* USER CODE END 2 */
 
@@ -154,6 +154,54 @@ int main(void)
 }
 
 /* USER CODE BEGIN 4 */
+static void USART1_Init(void)
+{
+
+  /* USER CODE BEGIN USART2_Init 0 */
+
+  /* USER CODE END USART2_Init 0 */
+
+  /* USER CODE BEGIN USART2_Init 1 */
+
+  /* USER CODE END USART2_Init 1 */
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 115200;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart1.Init.ClockPrescaler = UART_PRESCALER_DIV1;
+  huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+	GPIO_InitTypeDef GPIO_InitStruct = {0};
+	__HAL_RCC_GPIOE_CLK_ENABLE();
+
+	/*Configure GPIO pins : PE5 PE6 */
+	GPIO_InitStruct.Pin = GPIO_PIN_5|GPIO_PIN_6;
+	GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+	GPIO_InitStruct.Pull = GPIO_NOPULL;
+	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	GPIO_InitStruct.Alternate = GPIO_AF7_USART1;
+	HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+}
+
+static void printmsg(char *format,...)
+{
+  char str[80];
+
+  /*Extract the the argument list using VA apis */
+  va_list args;
+  va_start(args, format);
+  vsprintf(str, format,args);
+  HAL_UART_Transmit(&huart1,(uint8_t *)str, strlen(str),HAL_MAX_DELAY);
+  va_end(args);
+}
 
 /* USER CODE END 4 */
 
