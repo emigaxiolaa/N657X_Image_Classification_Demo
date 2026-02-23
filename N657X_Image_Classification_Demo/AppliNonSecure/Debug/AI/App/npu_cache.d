@@ -29,7 +29,7 @@ AI/App/npu_cache.o: ../AI/App/npu_cache.c ../AI/App/npu_cache.h \
  ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_pwr_ex.h \
  ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart.h \
  ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart_ex.h \
- C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Npu/ll_aton_config.h
+ C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Npu/ll_aton_config.h
 ../AI/App/npu_cache.h:
 ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal.h:
 ../Core/Inc/stm32n6xx_hal_conf.h:
@@ -61,4 +61,4 @@ AI/App/npu_cache.o: ../AI/App/npu_cache.c ../AI/App/npu_cache.h \
 ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_pwr_ex.h:
 ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart.h:
 ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart_ex.h:
-C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Npu/ll_aton_config.h:
+C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Npu/ll_aton_config.h:

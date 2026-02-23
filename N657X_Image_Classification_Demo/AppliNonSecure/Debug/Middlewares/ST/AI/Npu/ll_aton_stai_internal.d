@@ -1,14 +1,14 @@
 Middlewares/ST/AI/Npu/ll_aton_stai_internal.o: \
  ../Middlewares/ST/AI/Npu/ll_aton_stai_internal.c \
- C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai_debug.h \
- C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai.h \
+ C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai_debug.h \
+ C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai.h \
  ../Middlewares/ST/AI/Npu/ll_aton_caches_interface.h \
  ../Middlewares/ST/AI/Npu/ll_aton_osal.h \
  ../Middlewares/ST/AI/Npu/ll_aton_config.h \
  ../Middlewares/ST/AI/Npu/ll_aton_util.h \
  ../Middlewares/ST/AI/Npu/ll_aton_platform.h \
  ../Middlewares/ST/AI/Npu/mcu_cache.h \
- C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/AI/App/npu_cache.h \
+ C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/AI/App/npu_cache.h \
  ../../Drivers/CMSIS/Device/ST/STM32N6xx/Include/stm32n6xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32N6xx/Include/stm32n657xx.h \
  ../../Drivers/CMSIS/Include/core_cm55.h \
@@ -48,17 +48,17 @@ Middlewares/ST/AI/Npu/ll_aton_stai_internal.o: \
  ../Middlewares/ST/AI/Npu/ll_aton_runtime.h \
  ../Middlewares/ST/AI/Npu/ll_aton_stai_internal.h \
  ../Middlewares/ST/AI/Npu/stai_aton_common.h \
- C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai.h \
+ C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai.h \
  ../Middlewares/ST/AI/Npu/ll_aton_version.h
-C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai_debug.h:
-C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai.h:
+C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai_debug.h:
+C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai.h:
 ../Middlewares/ST/AI/Npu/ll_aton_caches_interface.h:
 ../Middlewares/ST/AI/Npu/ll_aton_osal.h:
 ../Middlewares/ST/AI/Npu/ll_aton_config.h:
 ../Middlewares/ST/AI/Npu/ll_aton_util.h:
 ../Middlewares/ST/AI/Npu/ll_aton_platform.h:
 ../Middlewares/ST/AI/Npu/mcu_cache.h:
-C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/AI/App/npu_cache.h:
+C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/AI/App/npu_cache.h:
 ../../Drivers/CMSIS/Device/ST/STM32N6xx/Include/stm32n6xx.h:
 ../../Drivers/CMSIS/Device/ST/STM32N6xx/Include/stm32n657xx.h:
 ../../Drivers/CMSIS/Include/core_cm55.h:
@@ -99,5 +99,5 @@ C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32
 ../Middlewares/ST/AI/Npu/ll_aton_runtime.h:
 ../Middlewares/ST/AI/Npu/ll_aton_stai_internal.h:
 ../Middlewares/ST/AI/Npu/stai_aton_common.h:
-C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai.h:
+C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/Middlewares/ST/AI/Inc/stai.h:
 ../Middlewares/ST/AI/Npu/ll_aton_version.h:

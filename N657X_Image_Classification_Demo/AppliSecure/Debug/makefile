@@ -63,8 +63,8 @@ all: main-build
 main-build: N657X_Image_Classification_Demo_AppliSecure.elf secondary-outputs
 
 # Tool invocations
-N657X_Image_Classification_Demo_AppliSecure.elf N657X_Image_Classification_Demo_AppliSecure.map: $(OBJS) $(USER_OBJS) C:\Users\jegaxiola\OneDrive\ -\ Pinnacle\ Software\ engineering\Documentos\STM32\N657X_Image_Classification_Demo\AppliSecure\STM32N657X0HXQ_LRUN_s.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "N657X_Image_Classification_Demo_AppliSecure.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m55 -T"C:\Users\jegaxiola\OneDrive - Pinnacle Software engineering\Documentos\STM32\N657X_Image_Classification_Demo\AppliSecure\STM32N657X0HXQ_LRUN_s.ld" --specs=nosys.specs -Wl,-Map="N657X_Image_Classification_Demo_AppliSecure.map" -Wl,--gc-sections -static -Wl,--cmse-implib -Wl,--out-implib=./secure_nsclib.o --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+N657X_Image_Classification_Demo_AppliSecure.elf N657X_Image_Classification_Demo_AppliSecure.map: $(OBJS) $(USER_OBJS) C:\Users\jiperez\OneDrive\STM\N657X_Image_Classification_Demo\N657X_Image_Classification_Demo\AppliSecure\STM32N657X0HXQ_LRUN_s.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "N657X_Image_Classification_Demo_AppliSecure.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m55 -T"C:\Users\jiperez\OneDrive\STM\N657X_Image_Classification_Demo\N657X_Image_Classification_Demo\AppliSecure\STM32N657X0HXQ_LRUN_s.ld" --specs=nosys.specs -Wl,-Map="N657X_Image_Classification_Demo_AppliSecure.map" -Wl,--gc-sections -static -Wl,--cmse-implib -Wl,--out-implib=./secure_nsclib.o --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

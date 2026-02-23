@@ -1,5 +1,5 @@
 Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_pwr.o: \
- C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_pwr.c \
+ C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_pwr.c \
  ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal.h \
  ../Core/Inc/stm32n6xx_hal_conf.h \
  ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_rcc.h \

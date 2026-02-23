@@ -65,11 +65,11 @@ all: main-build
 main-build: N657X_Image_Classification_Demo_AppliNonSecure.elf secondary-outputs
 
 dependents:
-	-cd C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliSecure/Debug && $(MAKE) all
+	-cd C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliSecure/Debug && $(MAKE) clean all
 
 # Tool invocations
-N657X_Image_Classification_Demo_AppliNonSecure.elf N657X_Image_Classification_Demo_AppliNonSecure.map: $(OBJS) $(USER_OBJS) C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliSecure/Debug/N657X_Image_Classification_Demo_AppliSecure.elf C:\Users\jegaxiola\OneDrive\ -\ Pinnacle\ Software\ engineering\Documentos\STM32\N657X_Image_Classification_Demo\AppliNonSecure\STM32N657X0HXQ_LRUN.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "N657X_Image_Classification_Demo_AppliNonSecure.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m55 -T"C:\Users\jegaxiola\OneDrive - Pinnacle Software engineering\Documentos\STM32\N657X_Image_Classification_Demo\AppliNonSecure\STM32N657X0HXQ_LRUN.ld" --specs=nosys.specs -Wl,-Map="N657X_Image_Classification_Demo_AppliNonSecure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+N657X_Image_Classification_Demo_AppliNonSecure.elf N657X_Image_Classification_Demo_AppliNonSecure.map: $(OBJS) $(USER_OBJS) C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliSecure/Debug/N657X_Image_Classification_Demo_AppliSecure.elf C:\Users\jiperez\OneDrive\STM\N657X_Image_Classification_Demo\N657X_Image_Classification_Demo\AppliNonSecure\STM32N657X0HXQ_LRUN.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "N657X_Image_Classification_Demo_AppliNonSecure.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m55 -T"C:\Users\jiperez\OneDrive\STM\N657X_Image_Classification_Demo\N657X_Image_Classification_Demo\AppliNonSecure\STM32N657X0HXQ_LRUN.ld" --specs=nosys.specs -Wl,-Map="N657X_Image_Classification_Demo_AppliNonSecure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -103,6 +103,6 @@ warn-no-linker-script-specified:
 	@echo 'Warning: No linker script specified. Check the linker settings in the build configuration.'
 
 .PHONY: all clean dependents main-build fail-specified-linker-script-missing warn-no-linker-script-specified
-C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliSecure/Debug/N657X_Image_Classification_Demo_AppliSecure.elf:
+C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliSecure/Debug/N657X_Image_Classification_Demo_AppliSecure.elf:
 
 -include ../makefile.targets

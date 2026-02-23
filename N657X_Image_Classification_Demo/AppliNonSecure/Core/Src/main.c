@@ -132,6 +132,7 @@ int main(void)
   ai_output = (stai_buffer*)output_ptrs[0];
 
   printf("Red N6 inicializada con exito!\r\n");
+  printf("Red N6 inicializada con exito2!\r\n");
   /* USER CODE END 2 */
 
   /* Infinite loop */

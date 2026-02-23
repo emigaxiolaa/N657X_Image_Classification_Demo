@@ -7,7 +7,7 @@ Middlewares/ST/AI/Npu/ll_aton_runtime.o: \
  ../Middlewares/ST/AI/Npu/ll_aton_osal.h \
  ../Middlewares/ST/AI/Npu/ll_aton_platform.h \
  ../Middlewares/ST/AI/Npu/mcu_cache.h \
- C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/AI/App/npu_cache.h \
+ C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/AI/App/npu_cache.h \
  ../../Drivers/CMSIS/Device/ST/STM32N6xx/Include/stm32n6xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32N6xx/Include/stm32n657xx.h \
  ../../Drivers/CMSIS/Include/core_cm55.h \
@@ -52,7 +52,7 @@ Middlewares/ST/AI/Npu/ll_aton_runtime.o: \
 ../Middlewares/ST/AI/Npu/ll_aton_osal.h:
 ../Middlewares/ST/AI/Npu/ll_aton_platform.h:
 ../Middlewares/ST/AI/Npu/mcu_cache.h:
-C:/Users/jegaxiola/OneDrive\ -\ Pinnacle\ Software\ engineering/Documentos/STM32/N657X_Image_Classification_Demo/AppliNonSecure/AI/App/npu_cache.h:
+C:/Users/jiperez/OneDrive/STM/N657X_Image_Classification_Demo/N657X_Image_Classification_Demo/AppliNonSecure/AI/App/npu_cache.h:
 ../../Drivers/CMSIS/Device/ST/STM32N6xx/Include/stm32n6xx.h:
 ../../Drivers/CMSIS/Device/ST/STM32N6xx/Include/stm32n657xx.h:
 ../../Drivers/CMSIS/Include/core_cm55.h:
