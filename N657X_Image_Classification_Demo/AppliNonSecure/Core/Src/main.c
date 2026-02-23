@@ -133,6 +133,13 @@ int main(void)
 
   printf("Red N6 inicializada con exito!\r\n");
   printf("Red N6 inicializada con exito2!\r\n");
+  printf("Red N6 inicializada con exito2!\r\n");
+  printf("Red N6 inicializada con exito2!\r\n");
+
+  printf("Red N6 inicializada con exito2!\r\n");v
+  printf("Red N6 inicializada con exito2!\r\n");
+  printf("Red N6 brooooooooooooooooooooo!\r\n");
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
